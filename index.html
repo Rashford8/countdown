@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown timer</title>
+</head>
+<style>
+    *{
+       
+        margin:auto;
+        padding:auto;
+        font-family:'Times New Roman', Times, serif;
+        box-sizing:border-box;
+
+        
+    }
+    body{
+        background-color: rgb(211, 241, 241);
+    }
+    img{
+        width:50%;
+        height:50%;
+        float:left;
+        margin:20px;
+        border-radius:20px;
+        padding:10px;
+    }
+    .grstt{
+        color:rgb(66, 231, 231);
+        font-weight:bold;
+    }
+    .ygff{
+        color:black; 
+        font-weight: bold;
+    }
+    .gfgf{
+        color:#B29ab0;
+    }
+    .rat{
+        font-size: 20px;
+        padding:30px;
+        margin-top: 30px;
+    }
+    .time{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        margin:10px;
+    }
+    .time div{
+        flex-basis:100px;
+        margin-left: -2px;
+        height: 90px;
+        background-color: rgb(150, 150, 206);
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .time div p{
+        font-size: 60px;
+        margin-bottom: -14px;
+    }
+    
+</style>
+<body>
+    <div>
+        <div class="teeth">
+            <img src="iphone.jpg" alt="">
+        </div>
+        <div class="rat">
+            <p class="grstt">OLD IPHONE GIVEAWAY</p><br>
+            <p class="ygff">Giveaway Ends On Monday 1 May 2024 At 11:30am</p><br>
+            <p class="gfgf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minus atque a voluptates, alias officiis voluptas explicabo est tenetur quisquam quasi animi consequatur aut, eligendi, ad incidunt. Accusamus, rem aperiam.</p>
+        </div>
+        <div class="time"> 
+            <div>    
+                <p id="days"></p>
+                <span>Days</span>
+            </div> 
+            <div>
+                <p id="hours"></p>
+                <span>Hours</span>
+            </div>
+            <div>      
+                <p id="minutes"></p>
+                <span>Minutes</span>
+            </div>
+            <div>
+                <p id="seconds"></p>
+                <span>Seconds</span>
+            </div>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
